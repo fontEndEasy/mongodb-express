@@ -1,0 +1,34 @@
+.login{ width: 42em; margin: 0 auto; }
+.login label{ height: 52px; display: block; }
+.login label span{
+	display: inline-block;
+	width: 10em;
+	text-align: right;
+}
+.login label input{
+	border: 1px solid #DEDEDE;
+	padding: .6em .3em;
+	border-radius: 3px;
+	transition: all .5s ease-out;
+}
+.login label input[type=submit]{
+	width: 100px;
+	cursor: pointer;
+}
+.login label input[type=submit]:hover{
+	background-color: #AAA;
+}
+.login-post{ width: 42em; margin: 0 auto; }
+.login-post label,
+.login-post label span{ display: block; }
+.login-post label input{ padding: 6px 0; }
+.login-post label,
+.login-post label span{ margin-bottom: 5px; margin-top: 6px; }
+.login-post .post-submit{
+	padding: .6em 2em;
+}
+.login-post .txt{ 
+	width: 100%;
+	height: 150px; 
+}
+.login-post .post-title{ width: 200px; }

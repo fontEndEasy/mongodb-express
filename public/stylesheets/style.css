@@ -1,0 +1,67 @@
+div,
+article,
+footer,
+header,
+div,
+p,ul,li,ol,dt,dl,dd,
+h1,h2,h3,h4,h5,h6,
+fieldset,
+address{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol,dt,dd,dl{
+	list-style: none;
+}
+body {
+	font-size: 14px;
+    font-family: "Microsoft yahei";
+}
+*{
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	-ms-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+input,textarea{ outline: none; border: 1px solid #DEDEDE; border-radius: 4px; }
+.nav{
+	float: left;
+	width: 12em;
+}
+.header h1{ 
+	border-bottom: 1px solid #DEDEDE; 
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+.nav span{display: block;width: 100%;height: 32px;line-height: 32px;border-bottom: 1px solid #DEDEDE;padding-left: 1em;}
+.nav span a{ display: block; }
+.html-index{ width: 120em; margin: 0 auto; }
+.article{ padding-left: 10em; }
+.clearfix:after,
+.clearfix:before{
+	clear: both;
+	display: block;
+	content: '';
+}
+.status-box{
+    margin: 0 auto;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #F00;
+}
+.post-list{ padding: 10px 0; border-bottom: 1px dashed #DEDEDE; }
+.post-list .post-edit{ float: right; display: inline-block; margin-right: 10px; }
+.footer{
+	height: 150px;
+	border-top: 1px solid #DEDEDE;
+	margin-top: 1em;
+	text-align: center;
+	padding-top: 1em;
+	background-color: #F5F5F5;
+}

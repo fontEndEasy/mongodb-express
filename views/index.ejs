@@ -1,0 +1,14 @@
+<%- include header %>
+
+<% posts.forEach(function(post, index) { %>
+	<div class="post-list">
+		<div><h2><a href="#"><%= post.title %></a></h2><a class="post-edit" href="/postRemove?title=<%= post.title %>">删除</a></div>
+		<div class="info">
+			Author: <a href="#"><%= post.name %></a> |
+			Date: <%= post.time.minute %>
+		</div>
+		<div><%- post.post %></div>
+	</div>
+<% }) %>
+
+<%- include footer %>

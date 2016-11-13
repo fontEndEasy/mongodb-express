@@ -1,0 +1,10 @@
+<%- include header %>
+<ul>
+<% for(var i=0; i<userList.length; i++) { %>
+	<li>
+		<span><%= userList[i].name %></span>
+		<span><%= userList[i].email %></span>
+	</li>
+<% } %>
+</ul>
+<%- include footer %>

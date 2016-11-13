@@ -1,0 +1,16 @@
+<%- include header %>
+<form class="login-post" method="post" action="/post">
+  <label>
+  	<span>标题：</span>
+  	<input class="post-title" type="text" name="title" />
+  </label>
+  <label>
+  	<span>正文：</span>
+  </label>
+  <textarea class="txt" name="post"></textarea>
+  <label>
+  <span></span>
+  <input type="submit" class="post-submit" value="发表" />
+  </label>
+</form>
+<%- include footer %>
