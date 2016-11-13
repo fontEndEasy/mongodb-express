@@ -5,13 +5,13 @@
 >
 >This is an entry blog scaffolding built by Mongodb + Express. Simple and easy to learn, there is no automated construction and complex configuration (gulp, webpack.config), no advanced syntax sugar (ES6), everything from simple, civilians, can be expanded, additional features, if you have the ability, Can also be a comprehensive reconstruction. Welcome friends from various quarters, a variety of ideas, for business improvement.
 
-### 搭建项目步骤
+#### 搭建项目步骤
 * 安装mongodb并运行 [mongodb安装](http://www.runoob.com/mongodb/mongodb-window-install.html) [mongodb下载](https://www.mongodb.com/download-center?jmp=nav)
 * 中间件:
-	1. body-parser(请求体参数处理)
-	2. connect-flash(全局信息通知)
-	3. cookie-parser(cookie 处理)
-	4. express-session(sesson 管理)
+	- body-parser(请求体参数处理)
+	- connect-flash(全局信息通知)
+	- cookie-parser(cookie 处理)
+	- express-session(sesson 管理)
 >
 
 
@@ -21,17 +21,17 @@
 * 如果npm失败，试试淘宝镜像：cd mongodb-express && npm install --registry=https://registry.npm.taobao.org --verbose
 * 运行方式一：node ./bin/www 运行项目(请先运行mongodb)
 * 运行方式二：热加载方式, 需要先全局安装nodemon包：
-	1. 直接安装：npm install -g nodemon
-	2. 淘宝镜像：npm install --registry=https://registry.npm.taobao.org --verbose nodemon -g
+	- 直接安装：npm install -g nodemon
+	- 淘宝镜像：npm install --registry=https://registry.npm.taobao.org --verbose nodemon -g
 	
 >
 
 * 功能
-	1. 首页展示博文
-	2. 登录
-	3. 注册
-	4. 发表博文
-	5. 用户列表展示
+	- 首页展示博文
+	- 登录
+	- 注册
+	- 发表博文
+	- 用户列表展示
 
 
 > ###附: 先注册，再发表博文，回到首页即可展示博文。
@@ -40,10 +40,10 @@
 ### Step:
 * Install mongodb and run [install mongodb](http://www.runoob.com/mongodb/mongodb-window-install.html) | [download mongodb](https://www.mongodb.com/download-center?jmp=nav)
 * Middleware:
-	1. body-parser
-	2. connect-flash
-	3. cookie-parser
-	4. express-session
+	- body-parser
+	- connect-flash
+	- cookie-parser
+	- express-session
 >
 
 
@@ -52,16 +52,16 @@
 * cd mongodb-express && npm install
 * Run method One：node ./bin/www run project(please run the mongodb first)
 * Run method Two：hot run mode, You need to install the nodemon package globally：
-	1. install method：npm install -g nodemon
+	- install method：npm install -g nodemon
 	
 >
 
 
 * Features:
-	1. Home show blog
-	2. Login
-	3. Register
-	4. Post blog
-	5. Blog display
+	- Home show blog
+	- Login
+	- Register
+	- Post blog
+	- Blog display
 
 > ###Tips: Register first，then post blog，back to the home, you will see the blog.
