@@ -16,8 +16,8 @@ var Post = require('../models/post'); // 博文model
 	 * @博客首页  
 	 * @request { String } '/post'
 	 * @callback { Function }[req, res]	 
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 module.exports = function(app) {
 	app.get('/', function(req, res) {
@@ -52,8 +52,8 @@ module.exports = function(app) {
 	 * @删除博文功能  
 	 * @request { String } '/postRemove'
 	 * @callback { Function }[req, res]	 
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.get('/postRemove', function(req, res) {
 		var title = req.query.title;
@@ -101,9 +101,9 @@ module.exports = function(app) {
 	 * @注册功能  
 	 * @request { String } '/reg'
 	 * @callback { Function }[req, res]	 
-     * @params { String: name, String: password, String: email, String: confirm_password }
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @params { String: name, String: password, String: email, String: confirm_password }
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.post('/reg', function(req,res) {
 		var name = req.body.name,
@@ -174,9 +174,9 @@ module.exports = function(app) {
 	 * @登录功能  
 	 * @request { String } '/login'
 	 * @callback { Function }[req, res]	 
-     * @params { String: md5, String: password }
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @params { String: md5, String: password }
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.post('/login', function (req, res) {
 
@@ -206,9 +206,9 @@ module.exports = function(app) {
 	 * @发表博文功能  
 	 * @request { String } '/post'
 	 * @callback { Function }[req, res]	 
-     * @params { String: currentUser, Object: post }
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @params { String: currentUser, Object: post }
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.get('/post', function(req, res) {
 		res.render('post', 
@@ -245,8 +245,8 @@ module.exports = function(app) {
 	 * @用户退出功能  
 	 * @request { String } '/logout'
 	 * @callback { Function }[req, res]	 
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.get('/logout', function(req, res) {
 		req.session.user = null;
@@ -262,8 +262,8 @@ module.exports = function(app) {
 	 * @获取博文功能  
 	 * @request { String } '/userList'
 	 * @callback { Function }[req, res]	 
-     * @author zhuxl
-     * @date 2016/11/13	 
+   * @author zhuxl
+   * @date 2016/11/13	 
 	 */
 	app.get('/userList', function(req, res) {
 		mongodb.open(function(err, db) {
