@@ -64,6 +64,6 @@
 	- Register
 	- Post blog
   - Delete blog
-	- Blog display
+  - Blog display
 
 > ####Tips: Register first，then post blog，back to the home, you will see the blog.
