@@ -6,8 +6,8 @@
 >This is an entry blog scaffolding built by Mongodb + Express. Simple and easy to learn, there is no automated construction and complex configuration (gulp, webpack.config), no advanced syntax sugar (ES6), everything from simple, civilians, can be expanded, additional features, if you have the ability, Can also be a comprehensive reconstruction. Welcome friends from various quarters, a variety of ideas, for business improvement.
 
 #### 搭建项目步骤
-* 安装mongodb并运行 [mongodb安装](http://www.runoob.com/mongodb/mongodb-window-install.html) [mongodb下载](https://www.mongodb.com/download-center?jmp=nav)
-* [安装nodejs](https://nodejs.org/en/)
+* 安装mongodb并运行  [mongodb下载](https://www.mongodb.com/download-center?jmp=nav) | [mongodb安装](http://www.runoob.com/mongodb/mongodb-window-install.html)
+* 安装nodejs [安装nodejs](https://nodejs.org/en/)
 
 >
 
