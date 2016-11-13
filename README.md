@@ -45,7 +45,7 @@
 
 #### Step:
 * Install mongodb and run [install mongodb](http://www.runoob.com/mongodb/mongodb-window-install.html) | [download and run mongodb](https://www.mongodb.com/download-center?jmp=nav)
-* 安装nodejs [https://nodejs.org/en/](https://nodejs.org/en/)
+* Install nodejs [https://nodejs.org/en/](https://nodejs.org/en/)
 * Middleware:
 	- body-parser
 	- connect-flash
