@@ -10,6 +10,9 @@
 * [安装nodejs](https://nodejs.org/en/)
 
 >
+
+
+
 * 中间件:
 	- npm install --save-dev body-parser(请求体参数处理)
 	- npm install --save-dev connect-flash(全局信息通知)
@@ -17,7 +20,6 @@
 	- npm install --save-dev express-session(sesson 管理)
   
 >
-
 
 * 前端模板：ejs(可用其它模板代替hbs)
 * git clone git@github.com:fontEndEasy/mongodb-express.git
