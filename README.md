@@ -14,10 +14,10 @@
 
 
 * 中间件:
-	- npm install --save-dev body-parser(请求体参数处理)
-	- npm install --save-dev connect-flash(全局信息通知)
-	- npm install --save-dev cookie-parser(cookie 处理)
-	- npm install --save-dev express-session(sesson 管理)
+	- body-parser(请求体参数处理)
+	- connect-flash(全局信息通知)
+	- cookie-parser(cookie 处理)
+	- express-session(sesson 管理)
   
 >
 
