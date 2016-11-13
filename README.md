@@ -31,13 +31,14 @@
 	- 登录
 	- 注册
 	- 发表博文
+  - 删除博文
 	- 用户列表展示
 
 
 > ###附: 先注册，再发表博文，回到首页即可展示博文。
 
 
-### Step:
+#### Step:
 * Install mongodb and run [install mongodb](http://www.runoob.com/mongodb/mongodb-window-install.html) | [download mongodb](https://www.mongodb.com/download-center?jmp=nav)
 * Middleware:
 	- body-parser
@@ -62,6 +63,7 @@
 	- Login
 	- Register
 	- Post blog
+  - Delete blog
 	- Blog display
 
-> ###Tips: Register first，then post blog，back to the home, you will see the blog.
+> ####Tips: Register first，then post blog，back to the home, you will see the blog.
