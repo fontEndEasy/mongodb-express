@@ -1,4 +1,4 @@
-### Mongodb+express
+### Node+Mongodb+express
 > 这是一个由Mongodb+express搭建的入门博客脚手架。
 简单易学, 没有自动化构建以及复杂的配置(gulp, webpack.config),没有高深的语法糖(ES6),
 一切从简，平民化，可自由扩展，可增加额外功能，如果您有能力, 有兴趣，也可以进行全面的重构。欢迎各路朋友点评，各种ideas，进行业务完善。
@@ -7,11 +7,14 @@
 
 #### 搭建项目步骤
 * 安装mongodb并运行 [mongodb安装](http://www.runoob.com/mongodb/mongodb-window-install.html) [mongodb下载](https://www.mongodb.com/download-center?jmp=nav)
+* [安装nodejs](https://nodejs.org/en/)
+
+>
 * 中间件:
-	- body-parser(请求体参数处理)
-	- connect-flash(全局信息通知)
-	- cookie-parser(cookie 处理)
-	- express-session(sesson 管理)
+	- npm install --save-dev body-parser(请求体参数处理)
+	- npm install --save-dev connect-flash(全局信息通知)
+	- npm install --save-dev cookie-parser(cookie 处理)
+	- npm install --save-dev express-session(sesson 管理)
   
 >
 * 前端模板：ejs(可用其它模板代替hbs)
