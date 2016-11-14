@@ -1,5 +1,5 @@
 ### Node+Mongodb+express
-> 这是一个由Mongodb+express搭建的入门博客脚手架。
+> 这是一个由Mongodb+express搭建的入门博客脚手架项目。
 简单易学, 没有自动化构建以及复杂的配置(gulp, webpack.config),没有高深的语法糖(ES6),
 一切从简，平民化，可自由扩展，可增加额外功能，如果您有能力, 有兴趣，也可以进行全面的重构。欢迎各路朋友点评，各种ideas，进行业务完善。
 >
