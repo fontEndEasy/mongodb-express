@@ -29,12 +29,12 @@ Post.prototype.save = function(callback) {
 		post: this.post
 	}
 	mongodb.open(function(err, db) {
-		if(err) {
+		if (err) {
 			return callback(err);
 		}
 
 		db.collection('posts', function(err, collection) {
-			if(err) {
+			if (err) {
 				mongodb.close();
 				return callback(err);
 			}
@@ -43,7 +43,7 @@ Post.prototype.save = function(callback) {
 				safe: true
 			}, function(err) {
 				mongodb.close();
-				if(err) {
+				if (err) {
 					return callback(err);
 				}
 
@@ -62,21 +62,21 @@ Post.get = function(name, callback) {
 
 
 		db.collection('posts', function(err, collection) {
-			if(err) {
+			if (err) {
 				mongodb.close();
 				return callback(err);
 			}
 
 			var query = {};
 
-			if(name) {
+			if (name) {
 				query.name = name;
 			}
 
 
 			collection.find(query).sort({time:-1}).toArray(function(err, docs) {
 				mongodb.close();
-				if(err) {
+				if (err) {
 					return callback(err);
 				}
 
