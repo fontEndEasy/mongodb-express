@@ -12,13 +12,13 @@ var Post = require('../models/post'); // 博文model
 */
 
 
-/*
-	 * @博客首页  
-	 * @request { String } '/post'
-	 * @callback { Function }[req, res]	 
-   * @author zhuxl
-   * @date 2016/11/13	 
-	 */
+/**
+	* @title String '博客首页'  
+	* @url String { String } '/post'
+	* @callback { Function }[params: req, res]	 
+  * @author zhuxl
+  * @date 2016/11/13	 
+	*/
 module.exports = function(app) {
 	app.get('/', function(req, res) {
 		Post.get(null, function(err, posts) {
@@ -48,13 +48,13 @@ module.exports = function(app) {
 	
 	
 	
-	/*
-	 * @删除博文功能  
-	 * @request { String } '/postRemove'
-	 * @callback { Function }[req, res]	 
-   * @author zhuxl
-   * @date 2016/11/13	 
-	 */
+	/**
+	  * @title删除博文功能  
+	  * @url { String } '/postRemove'
+	  * @callback { Function }[params: req, res]	 
+    * @author zhuxl
+    * @date 2016/11/13	 
+	  */
 	app.get('/postRemove', function(req, res) {
 		var title = req.query.title;
 		
@@ -97,14 +97,14 @@ module.exports = function(app) {
 		);
 	});
 	
-	/*
-	 * @注册功能  
-	 * @request { String } '/reg'
-	 * @callback { Function }[req, res]	 
-   * @params { String: name, String: password, String: email, String: confirm_password }
-   * @author zhuxl
-   * @date 2016/11/13	 
-	 */
+	/**
+	  * @titlle { String } '注册功能'
+	  * @url { String } '/reg'
+	  * @callback { Function }[params: req, res]	 
+    * @params { String: name, String: password, String: email, String: confirm_password }
+    * @author zhuxl
+    * @date 2016/11/13	 
+	  */
 	app.post('/reg', function(req,res) {
 		var name = req.body.name,
       		password = req.body.password,
@@ -170,14 +170,14 @@ module.exports = function(app) {
 	});
 	
 	
-	/*
-	 * @登录功能  
-	 * @request { String } '/login'
-	 * @callback { Function }[req, res]	 
-   * @params { String: md5, String: password }
-   * @author zhuxl
-   * @date 2016/11/13	 
-	 */
+	/**
+	  * @title { String } '登录功能'
+	  * @request { String } '/login'
+	  * @callback { Function }[params: req, res]	 
+    * @params { String: md5, String: password }
+    * @author zhuxl
+    * @date 2016/11/13	 
+	  */
 	app.post('/login', function (req, res) {
 
 	  var md5 = crypto.createHash('md5'),
@@ -202,10 +202,10 @@ module.exports = function(app) {
 
 	
 	
-	/*
-	 * @发表博文功能  
-	 * @request { String } '/post'
-	 * @callback { Function }[req, res]	 
+ /**
+	 * @title { String } '发表博文功能'
+	 * @url { String } '/post'
+	 * @callback { Function }[params: req, res]	 
    * @params { String: currentUser, Object: post }
    * @author zhuxl
    * @date 2016/11/13	 
@@ -241,10 +241,10 @@ module.exports = function(app) {
 	
 
 
-	/*
-	 * @用户退出功能  
-	 * @request { String } '/logout'
-	 * @callback { Function }[req, res]	 
+ /**
+	 * @title { String } '用户退出功能'
+	 * @url { String } '/logout'
+	 * @callback { Function }[params: req, res]	 
    * @author zhuxl
    * @date 2016/11/13	 
 	 */
@@ -259,9 +259,9 @@ module.exports = function(app) {
 	});
 	
 	/*
-	 * @获取博文功能  
-	 * @request { String } '/userList'
-	 * @callback { Function }[req, res]	 
+	 * @title { String } '获取博文功能'
+	 * @url { String } '/userList'
+	 * @callback { Function }[params: req, res]	 
    * @author zhuxl
    * @date 2016/11/13	 
 	 */
