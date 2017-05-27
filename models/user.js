@@ -1,5 +1,10 @@
 var mongodb = require('./db');
-
+/**
+	* @params { Object } user 
+  * @method { Function } User
+  * @author zhuxl
+  * @date 2016/11/13	 
+	*/
 function User(user) {
 	this.name = user.name;
 	this.password = user.password;
@@ -8,6 +13,12 @@ function User(user) {
 
 module.exports = User;
 
+/**
+	* @params { Function } callback 
+  * @method { Function } save
+  * @author zhuxl
+  * @date 2016/11/13	 
+	*/
 User.prototype.save = function(callback) {
 	var user = {
 		name: this.name,
