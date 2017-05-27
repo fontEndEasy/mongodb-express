@@ -1,6 +1,6 @@
 var mongodb = require('./db');
 /**
-	* @params { Object } user 
+	* @param { Object } user 
   * @method { Function } User
   * @author zhuxl
   * @date 2016/11/13	 
@@ -14,7 +14,7 @@ function User(user) {
 module.exports = User;
 
 /**
-	* @params { Function } callback 
+	* @param { Function } callback 
   * @method { Function } save
   * @author zhuxl
   * @date 2016/11/13	 
